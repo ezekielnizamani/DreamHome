@@ -1,1 +1,1 @@
-This is crwaler that i made in laravel which read csv and crwal from diffrent sites i am making same proejct in golang for learning 
+This is a crawler that I made in Laravel, which reads CSV files and crawls data from different sites. I am creating the same project in Golang for learning purposes
