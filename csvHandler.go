@@ -20,9 +20,9 @@ func readCsvFile(filePath string) [][]string {
 	}
 	return records
 }
-func getHeader(data *[][]string) []string {
+func getHeader(data *[][]string) {
 
-	header := []string((*data)[0])
+	// header := []string((*data)[0])
 	(*data) = (*data)[1:]
-	return header
+	// return header
 }

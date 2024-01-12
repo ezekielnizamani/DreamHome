@@ -10,7 +10,11 @@ func main() {
 	fmt.Print("Please type csv file path:  ")
 	fmt.Scan(&filePath)
 	data := readCsvFile(filePath)
-	header := getHeader(&data)
-	fmt.Println(data)
-	fmt.Println("Your file path", header)
+	// header := getHeader(&data)
+	getHeader(&data)
+
+	for _, value := range data {
+		crwalForsythCounty(value[3])
+	}
+	// fmt.Println("Your file path", header)
 }
